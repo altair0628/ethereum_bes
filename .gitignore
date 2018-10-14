@@ -1,5 +1,5 @@
-package-lock.json
-node_modules/
+### *.log ###
+*.log
 
 ### Intellij+all Patch ###
 out/

@@ -12,7 +12,7 @@ rm -rf ~/bes/ethereum/NODE/pid/8503.pid
 mkdir dag
 mkdir cache
 
-geth --datadir ~/bes/ethereum/NODE/8503   init   ~/bes/ethereum/NODE/conf/genesis_8503.json
+~/bes/go-ethereum/build/bin/geth --datadir ~/bes/ethereum/NODE/8503   init   ~/bes/ethereum/NODE/conf/genesis_8503.json
 
 tree
 
