@@ -1,0 +1,27 @@
+#!/bin/bash
+
+source /usr1/ethereum/NODE/conf/.env.ini
+
+if [[ $# -eq 0 ]] ; then
+    echo 'Usage : rstart|rstop|rstatus|ruse {InstanceName}'
+    echo '    ex) rstatus 8501'
+    exit 0
+fi
+
+SCRIPT_DIR="$(dirname -- "$(readlink -f -- "$0")")"
+GETH_INSTANCE=$1
+
+
+if [ ! -f ${SCRIPT_DIR}/pid/${GETH_INSTANCE}.pid ]
+then
+    echo "No geth.pid file("${GETH_INSTANCE}") exists !!!!"
+    exit 1
+fi
+
+GETH_CMD="eth.blockNumber"
+
+while (true);do
+    BNO=`geth attach http://127.0.0.1:${GETH_INSTANCE} --exec "${GETH_CMD}"`
+    echo '['${GETH_INSTANCE}'] '`date +"%Y/%m/%d %H:%M:%S"` - $BNO
+    sleep 2
+done

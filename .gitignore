@@ -1,0 +1,15 @@
+package-lock.json
+node_modules/
+
+### Intellij+all Patch ###
+out/
+.idea/
+*.iml
+*.iws
+*.ipr
+modules.xml
+
+### MacOs ###
+.DS_Store
+.AppleDouble
+.LSOverride

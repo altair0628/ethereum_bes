@@ -1,0 +1,6 @@
+#################################################################################################################################################
+# SVC_ID        GETH_INSTANCE   P2P_PORT        PID_DIR                         GETH_BASE_DIR                   RPCAPI
+#################################################################################################################################################
+1000            8545            30303           /usr1/ethereum/NODE/pid         /usr1/ethereum/NODE             eth,net,web3,txpool
+1010            8501            33001           /usr1/ethereum/NODE/pid         /usr1/ethereum/NODE             eth,net,web3,txpool
+1020            8502            33002           /usr1/ethereum/NODE/pid         /usr1/ethereum/NODE             eth,net,web3,txpool

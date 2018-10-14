@@ -1,0 +1,26 @@
+#!/bin/bash
+
+source /usr1/ethereum/NODE/conf/.env.ini
+source /usr1/ethereum/NODE/script/common_func.sh
+
+chkParameter $1
+GETH_INSTANCE=$1
+
+SCRIPT_DIR="$(dirname -- "$(readlink -f -- "$0")")"
+
+chkPID "${SCRIPT_DIR}/pid/${GETH_INSTANCE}.pid" "${GETH_INSTANCE}"
+
+echo "=========================="
+echo "geth Shutdowning..." ${GETH_INSTANCE}
+echo "=========================="
+echo
+
+ps -ef | grep geth | grep ${GETH_INSTANCE}
+echo
+
+kill  `cat ${SCRIPT_DIR}/pid/${GETH_INSTANCE}.pid`
+rm -rf ${SCRIPT_DIR}/pid/${GETH_INSTANCE}.pid
+
+echo "Check Process...."
+ps -ef | grep geth | grep ${GETH_INSTANCE}
+

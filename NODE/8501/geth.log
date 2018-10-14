@@ -1,0 +1,34 @@
+INFO [10-14|15:04:59.615] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [10-14|15:04:59.626] Starting peer-to-peer node               instance=Geth/v1.8.17-stable-8bbe7207/darwin-amd64/go1.11.1
+INFO [10-14|15:04:59.626] Allocated cache and file handles         database=/Users/youngjuroh/bes/ethereum/NODE/8501/geth/chaindata cache=384 handles=1024
+INFO [10-14|15:04:59.635] Initialised chain configuration          config="{ChainID: 2018 Homestead: 1 DAO: <nil> DAOSupport: false EIP150: 2 EIP155: 3 EIP158: 3 Byzantium: 4 Constantinople: <nil> Engine: clique}"
+INFO [10-14|15:04:59.635] Initialising Ethereum protocol           versions="[63 62]" network=2018
+INFO [10-14|15:04:59.635] Loaded most recent local header          number=0 hash=01ab71…78264e td=1 age=1mo3d7h
+INFO [10-14|15:04:59.635] Loaded most recent local full block      number=0 hash=01ab71…78264e td=1 age=1mo3d7h
+INFO [10-14|15:04:59.635] Loaded most recent local fast block      number=0 hash=01ab71…78264e td=1 age=1mo3d7h
+INFO [10-14|15:04:59.636] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [10-14|15:04:59.636] Starting P2P networking 
+INFO [10-14|15:04:59.637] Stored checkpoint snapshot to disk       number=0 hash=01ab71…78264e
+INFO [10-14|15:05:01.753] UDP listener up                          self=enode://f44905a0cc80352326121ce829aff09f40268b45061e5d14de3eb998951e04dc3a3333bc685bf40c88e38ac188da2d79b6bb204e7900e2190b0a05c7a8964e04@[::]:33001
+INFO [10-14|15:05:01.753] RLPx listener up                         self=enode://f44905a0cc80352326121ce829aff09f40268b45061e5d14de3eb998951e04dc3a3333bc685bf40c88e38ac188da2d79b6bb204e7900e2190b0a05c7a8964e04@[::]:33001
+INFO [10-14|15:05:01.755] IPC endpoint opened                      url=/Users/youngjuroh/bes/ethereum/NODE/8501/geth.ipc
+INFO [10-14|15:05:01.756] HTTP endpoint opened                     url=http://0.0.0.0:8501                               cors=* vhosts=localhost
+INFO [10-14|15:05:06.288] Block synchronisation started 
+INFO [10-14|15:05:06.638] Imported new chain segment               blocks=192 txs=0 mgas=0.000 elapsed=48.193ms mgasps=0.000 number=192 hash=40a086…0c7dfc age=1mo3d7h cache=0.00B
+INFO [10-14|15:05:06.735] Imported new chain segment               blocks=384 txs=0 mgas=0.000 elapsed=91.597ms mgasps=0.000 number=576 hash=e7bdae…43af62 age=1mo3d6h cache=0.00B
+INFO [10-14|15:05:06.973] Imported new chain segment               blocks=960 txs=0 mgas=0.000 elapsed=222.694ms mgasps=0.000 number=1536 hash=bb0a7f…f5ff3f age=1mo3d6h cache=0.00B
+INFO [10-14|15:05:07.473] Imported new chain segment               blocks=2048 txs=0 mgas=0.000 elapsed=472.799ms mgasps=0.000 number=3584 hash=77d200…41ebb6 age=1mo3d5h cache=0.00B
+INFO [10-14|15:05:07.972] Imported new chain segment               blocks=2048 txs=0 mgas=0.000 elapsed=470.346ms mgasps=0.000 number=5632 hash=ce9c08…78a9fc age=1mo3d5h cache=0.00B
+INFO [10-14|15:05:08.473] Imported new chain segment               blocks=2048 txs=0 mgas=0.000 elapsed=478.359ms mgasps=0.000 number=7680 hash=948960…4bfe12 age=1mo3d4h cache=0.00B
+INFO [10-14|15:05:08.960] Imported new chain segment               blocks=2048 txs=0 mgas=0.000 elapsed=465.404ms mgasps=0.000 number=9728 hash=1e282a…4abc96 age=1mo3d4h cache=0.00B
+INFO [10-14|15:05:09.449] Imported new chain segment               blocks=2048 txs=0 mgas=0.000 elapsed=463.007ms mgasps=0.000 number=11776 hash=1a6dd5…21c2f1 age=1mo3d3h cache=0.00B
+INFO [10-14|15:05:09.975] Imported new chain segment               blocks=2048 txs=0 mgas=0.000 elapsed=504.279ms mgasps=0.000 number=13824 hash=f4f05c…1409e8 age=1mo3d3h cache=0.00B
+INFO [10-14|15:05:10.465] Imported new chain segment               blocks=2048 txs=0 mgas=0.000 elapsed=468.321ms mgasps=0.000 number=15872 hash=86ac73…2d6856 age=1mo3d2h cache=0.00B
+INFO [10-14|15:05:10.812] Got interrupt, shutting down... 
+INFO [10-14|15:05:10.812] HTTP endpoint closed                     url=http://0.0.0.0:8501
+INFO [10-14|15:05:10.812] IPC endpoint closed                      endpoint=/Users/youngjuroh/bes/ethereum/NODE/8501/geth.ipc
+INFO [10-14|15:05:10.813] Blockchain manager stopped 
+INFO [10-14|15:05:10.813] Stopping Ethereum protocol 
+INFO [10-14|15:05:10.813] Ethereum protocol stopped 
+INFO [10-14|15:05:10.813] Transaction pool stopped 
+INFO [10-14|15:05:10.814] Database closed                          database=/Users/youngjuroh/bes/ethereum/NODE/8501/geth/chaindata

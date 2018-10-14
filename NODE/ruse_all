@@ -1,0 +1,15 @@
+#!/bin/bash
+
+source /usr1/ethereum/NODE/conf/.env.ini
+
+SCRIPT_DIR="$(dirname -- "$(readlink -f -- "$0")")"
+
+cd ${SCRIPT_DIR}
+
+for i in $(ls -d 850*);
+do
+    echo "===" ${i} "==="
+    ./ruse ${i} $1
+    sleep 1;
+done
+

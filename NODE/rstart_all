@@ -1,0 +1,18 @@
+#!/bin/bash
+
+source /usr1/ethereum/NODE/conf/.env.ini
+
+SCRIPT_DIR="$(dirname -- "$(readlink -f -- "$0")")"
+
+cd ${SCRIPT_DIR}
+
+for i in $(ls -d 850*);
+do
+    ./rstart ${i};
+    sleep 3;
+done
+
+
+echo
+echo "### Check Process #######################"
+ps -ef | grep geth | grep 85

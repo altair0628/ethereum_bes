@@ -1,0 +1,36 @@
+INFO [10-14|15:05:18.419] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [10-14|15:05:18.433] Starting peer-to-peer node               instance=Geth/v1.8.17-stable-8bbe7207/darwin-amd64/go1.11.1
+INFO [10-14|15:05:18.433] Allocated cache and file handles         database=/Users/youngjuroh/bes/ethereum/NODE/8502/geth/chaindata cache=384 handles=1024
+INFO [10-14|15:05:18.439] Initialised chain configuration          config="{ChainID: 2018 Homestead: 1 DAO: <nil> DAOSupport: false EIP150: 2 EIP155: 3 EIP158: 3 Byzantium: 4 Constantinople: <nil> Engine: clique}"
+INFO [10-14|15:05:18.440] Initialising Ethereum protocol           versions="[63 62]" network=2018
+INFO [10-14|15:05:18.440] Loaded most recent local header          number=0 hash=01ab71…78264e td=1 age=1mo3d7h
+INFO [10-14|15:05:18.440] Loaded most recent local full block      number=0 hash=01ab71…78264e td=1 age=1mo3d7h
+INFO [10-14|15:05:18.440] Loaded most recent local fast block      number=0 hash=01ab71…78264e td=1 age=1mo3d7h
+INFO [10-14|15:05:18.440] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [10-14|15:05:18.440] Starting P2P networking 
+INFO [10-14|15:05:18.441] Stored checkpoint snapshot to disk       number=0 hash=01ab71…78264e
+INFO [10-14|15:05:20.554] UDP listener up                          self=enode://89c9d495dc2b911a212d5bcaad93a6041855a605b423c49af8db7c5b313c548635faa5973db804618e5315090e70cdec6149c8711c42a815123f952cb93f74ce@[::]:33002
+INFO [10-14|15:05:20.554] RLPx listener up                         self=enode://89c9d495dc2b911a212d5bcaad93a6041855a605b423c49af8db7c5b313c548635faa5973db804618e5315090e70cdec6149c8711c42a815123f952cb93f74ce@[::]:33002
+INFO [10-14|15:05:20.556] IPC endpoint opened                      url=/Users/youngjuroh/bes/ethereum/NODE/8502/geth.ipc
+INFO [10-14|15:05:20.557] HTTP endpoint opened                     url=http://0.0.0.0:8502                               cors=* vhosts=localhost
+INFO [10-14|15:05:24.280] Block synchronisation started 
+INFO [10-14|15:05:24.540] Imported new chain segment               blocks=192 txs=0 mgas=0.000 elapsed=48.893ms mgasps=0.000 number=192 hash=40a086…0c7dfc age=1mo3d7h cache=0.00B
+INFO [10-14|15:05:24.635] Imported new chain segment               blocks=384 txs=0 mgas=0.000 elapsed=89.521ms mgasps=0.000 number=576 hash=e7bdae…43af62 age=1mo3d6h cache=0.00B
+INFO [10-14|15:05:24.827] Imported new chain segment               blocks=768 txs=0 mgas=0.000 elapsed=183.338ms mgasps=0.000 number=1344 hash=8f1d0b…96eb5c age=1mo3d6h cache=0.00B
+INFO [10-14|15:05:25.237] Imported new chain segment               blocks=1728 txs=0 mgas=0.000 elapsed=391.907ms mgasps=0.000 number=3072 hash=05712f…474cc0 age=1mo3d6h cache=0.00B
+INFO [10-14|15:05:25.738] Imported new chain segment               blocks=2048 txs=0 mgas=0.000 elapsed=480.012ms mgasps=0.000 number=5120 hash=41d5a1…4eaccf age=1mo3d5h cache=0.00B
+INFO [10-14|15:05:26.237] Imported new chain segment               blocks=2048 txs=0 mgas=0.000 elapsed=474.415ms mgasps=0.000 number=7168 hash=7e33cf…7fd5af age=1mo3d4h cache=0.00B
+INFO [10-14|15:05:26.785] Imported new chain segment               blocks=2048 txs=0 mgas=0.000 elapsed=524.121ms mgasps=0.000 number=9216 hash=2cb872…e99ff0 age=1mo3d4h cache=0.00B
+INFO [10-14|15:05:27.326] Imported new chain segment               blocks=2048 txs=0 mgas=0.000 elapsed=519.312ms mgasps=0.000 number=11264 hash=aebf38…6bd48e age=1mo3d3h cache=0.00B
+INFO [10-14|15:05:27.816] Imported new chain segment               blocks=2048 txs=0 mgas=0.000 elapsed=467.590ms mgasps=0.000 number=13312 hash=831246…e6bd29 age=1mo3d3h cache=0.00B
+INFO [10-14|15:05:28.311] Imported new chain segment               blocks=2048 txs=0 mgas=0.000 elapsed=472.066ms mgasps=0.000 number=15360 hash=3e7359…937f49 age=1mo3d2h cache=0.00B
+INFO [10-14|15:05:28.828] Imported new chain segment               blocks=2048 txs=0 mgas=0.000 elapsed=494.008ms mgasps=0.000 number=17408 hash=ca034b…e95053 age=1mo3d2h cache=0.00B
+INFO [10-14|15:05:28.845] Got interrupt, shutting down... 
+INFO [10-14|15:05:28.846] HTTP endpoint closed                     url=http://0.0.0.0:8502
+INFO [10-14|15:05:28.846] IPC endpoint closed                      endpoint=/Users/youngjuroh/bes/ethereum/NODE/8502/geth.ipc
+INFO [10-14|15:05:28.938] Blockchain manager stopped 
+INFO [10-14|15:05:28.938] Stopping Ethereum protocol 
+WARN [10-14|15:05:28.947] Synchronisation failed, retrying         err="block header download canceled (requested)"
+INFO [10-14|15:05:28.947] Ethereum protocol stopped 
+INFO [10-14|15:05:28.947] Transaction pool stopped 
+INFO [10-14|15:05:28.947] Database closed                          database=/Users/youngjuroh/bes/ethereum/NODE/8502/geth/chaindata
