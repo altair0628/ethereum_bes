@@ -14,7 +14,7 @@ mkdir cache
 
 ~/bes/go-ethereum/build/bin/geth --datadir ~/bes/ethereum/NODE/8545   init   ~/bes/ethereum/NODE/conf/genesis_8545.json
 
-#tree
+tree
 
 echo;
 echo "#############################"

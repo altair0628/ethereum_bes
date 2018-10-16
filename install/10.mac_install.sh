@@ -1,8 +1,4 @@
 brew update
 
-brew update
-
-brew install coreutils
-
-brew install gcc automake autoconf libtool make
+brew install coreutils gcc automake autoconf libtool make tree
 
